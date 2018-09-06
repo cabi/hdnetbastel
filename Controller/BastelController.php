@@ -13,5 +13,7 @@ class BastelController extends FrontendController {
     public function render()
     {
         $result = parent::render();
+
+        return $result;
     }
 }

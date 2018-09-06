@@ -30,7 +30,15 @@ $aModule = [
     'templates' => [
         'bastel_index.tpl' => 'hdnet/bastel/views/tpl/bastel/index.tpl'
         ],
-    'blocks' => [],
+    'blocks' => [
+        [
+            'template' => 'widget/header/servicebox.tpl',
+            'block' => 'widget_header_servicebox_items',
+            'file' => ''
+
+        ]
+
+    ],
     'settings' => [
         ['group' => 'bastelgruppe', 'name' => 'greetingsStranger',        'type' => 'str',    'value' => '']
     ]
