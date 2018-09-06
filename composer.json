@@ -1,0 +1,25 @@
+{
+  "name": "hdnet/bastel",
+  "description": "HDNET Bastel Modul für OXID",
+  "type": "oxideshop-module",
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "documentation/**/*.*"
+      ],
+      "target-directory": "hdnet/bastel"
+    }
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "phpunit/phpunit-selenium": ">=1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "HDNET\\Bastel\\": "./"
+    }
+  }
+}
