@@ -31,5 +31,7 @@ $aModule = [
         'bastel_index.tpl' => 'hdnet/bastel/views/tpl/bastel/index.tpl'
         ],
     'blocks' => [],
-    'settings' => []
+    'settings' => [
+        ['group' => 'bastelgruppe', 'name' => 'greetingsStranger',        'type' => 'str',    'value' => '']
+    ]
 ];
