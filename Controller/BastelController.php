@@ -2,6 +2,16 @@
 
 namespace HDNET\Bastel\Controller;
 
-class BastelController extends \OxidEsales\Eshop\Application\Controller\FrontendController {
+use \OxidEsales\Eshop\Application\Controller\FrontendController;
 
+class BastelController extends FrontendController {
+    /**
+     * @var string
+     */
+    protected $_sThisTemplate = 'bastel_index.tpl';
+
+    public function render()
+    {
+        $result = parent::render();
+    }
 }
