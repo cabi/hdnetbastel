@@ -34,7 +34,7 @@ $aModule = [
         [
             'template' => 'widget/header/servicebox.tpl',
             'block' => 'widget_header_servicebox_items',
-            'file' => ''
+            'file' => 'views/blocks/servicebox.tpl'
 
         ]
 
